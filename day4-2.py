@@ -1,26 +1,5 @@
-rock = '''
-    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)
-'''
+import random
 
-paper = '''
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-'''
-
-scissors = '''
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-'''
+friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+random_index = random.randint(0,4)
+print(friends[random_index])
